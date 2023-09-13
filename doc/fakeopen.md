@@ -117,11 +117,11 @@
 * **官方文档：** https://platform.openai.com/docs/api-reference/chat/create
 * **接口描述：** 发送对话，获取回复。可使用 `Share Token` 或 `Pool Token` 模拟免费调用。绝大多数 `OpenAI API` 客户端均支持。
 * **模型映射：** 
-    * `gpt-3.5-turbo` -> `text-davinci-002-render-sha`，真实长度为：`4K` 。
-    * `gpt-3.5-turbo-0301` -> `text-davinci-002-render-sha`，真实长度为：`4K` 。
-    * `gpt-3.5-turbo-0613` -> `text-davinci-002-render-sha`，真实长度为：`4K` 。
-    * `gpt-3.5-turbo-16k` -> `text-davinci-002-render-sha`，真实长度为：`4K` 。
-    * `gpt-3.5-turbo-16k-0613` -> `text-davinci-002-render-sha`，真实长度为：`4K` 。
+    * `gpt-3.5-turbo` -> `text-davinci-002-render-sha`，真实长度为：`8K` 。
+    * `gpt-3.5-turbo-0301` -> `text-davinci-002-render-sha`，真实长度为：`8K` 。
+    * `gpt-3.5-turbo-0613` -> `text-davinci-002-render-sha`，真实长度为：`8K` 。
+    * `gpt-3.5-turbo-16k` -> `text-davinci-002-render-sha`，真实长度为：`8K` 。
+    * `gpt-3.5-turbo-16k-0613` -> `text-davinci-002-render-sha`，真实长度为：`8K` 。
     * `gpt-4` -> `gpt-4`，真实长度为：`4K` 。
     * `gpt-4-0314` -> `gpt-4`，真实长度为：`4K` 。
     * `gpt-4-0613` -> `gpt-4`，真实长度为：`4K` 。
