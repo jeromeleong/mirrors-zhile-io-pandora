@@ -174,6 +174,7 @@
     * `mfa_code`：开启二次验证，需要提供。否则不需要。
 * **返回字段：** 返回 `Access Token` 和 `Refresh Token` 等信息。
 * **频率控制：** 根据IP地址 `6/1m` 限制，被限制时返回 `429` 错误码。
+* **特别说明：** 可直接调用，无需先调用**获取登录预授权**接口。也无需支持国家的梯子。
 
 #### 3. `/auth/refresh`
 * **接口描述：** 使用 `Refresh Token` 获取供 [ChatGPT](https://chat.openai.com) 使用的 `Access Token` 等信息。
