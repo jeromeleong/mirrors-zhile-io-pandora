@@ -18,19 +18,19 @@ setup(
     version=__version__,
     python_requires='>=3.7',
     author='Neo Peng',
-    author_email='pengzhile@gmail.com',
+    author_email='admin@zhile.io',
     keywords='OpenAI ChatGPT ChatGPT-Plus gpt-3.5-turbo gpt-3.5-turbo-0301',
     description='A command-line interface to ChatGPT',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/pengzhile/pandora',
+    url='https://github.com/zhile-io/pandora',
     packages=find_packages('src'),
     package_dir={'pandora': 'src/pandora'},
     include_package_data=True,
     install_requires=requirements,
     extras_require={
         'api': requirements_api,
-        'cloud': ['pandora-cloud~=0.6.0'],
+        'cloud': ['pandora-cloud~=0.6.1'],
     },
     entry_points={
         'console_scripts': [
@@ -39,8 +39,8 @@ setup(
         ]
     },
     project_urls={
-        'Source': 'https://github.com/pengzhile/pandora',
-        'Tracker': 'https://github.com/pengzhile/pandora/issues',
+        'Source': 'https://github.com/zhile-io/pandora',
+        'Tracker': 'https://github.com/zhile-io/pandora/issues',
     },
     classifiers=[
         'Development Status :: 5 - Production/Stable',

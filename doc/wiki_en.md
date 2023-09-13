@@ -5,14 +5,14 @@
   <p align="center">
 Pandora, talking with ChatGPT in command lines, and with more surprises.
     <br />
-    <a href="https://github.com/pengzhile/pandora/blob/master/doc/wiki.md"><strong>Wiki in 中文 »</strong></a>
+    <a href="https://github.com/zhile-io/pandora/blob/master/doc/wiki.md"><strong>Wiki in 中文 »</strong></a>
     <br />
     <br />
     <a href="https://chat.zhile.io">Demo View</a>
     ·
-    <a href="https://github.com/pengzhile/pandora/issues">Bug Report</a>
+    <a href="https://github.com/zhile-io/pandora/issues">Bug Report</a>
     ·
-    <a href="https://github.com/pengzhile/pandora/issues">Feature Request</a>
+    <a href="https://github.com/zhile-io/pandora/issues">Feature Request</a>
   </p>
 </p>
 
@@ -92,7 +92,7 @@ Pandora, talking with ChatGPT in command lines, and with more surprises.
   docker run -it --rm pandora
   ```
   
-* Serverless deploy：[pandora-cloud-serverless](https://github.com/pengzhile/pandora-cloud-serverless)
+* Serverless deploy：[pandora-cloud-serverless](https://github.com/zhile-io/pandora-cloud-serverless)
 
 * login with your credentials
 
@@ -134,7 +134,7 @@ These docker environment variables will override start parameters.
 
 * if you start Pandora with `-s`/`--server`/`PANDORA_SERVER`, you could access a web UI with `http://ip:port`.
 * you could switch access token by passing a different one with `http://ip:port/?token=xxx`.
-* API documents: [doc/HTTP-API.md](https://github.com/pengzhile/pandora/blob/master/doc/HTTP-API.md)
+* API documents: [doc/HTTP-API.md](https://github.com/zhile-io/pandora/blob/master/doc/HTTP-API.md)
 
 ## Commands 
 

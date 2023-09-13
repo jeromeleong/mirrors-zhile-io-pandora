@@ -112,7 +112,7 @@ def main():
     Console.debug_b(
         '''
             Pandora - A command-line interface to ChatGPT
-            Github: https://github.com/pengzhile/pandora
+            Github: https://github.com/zhile-io/pandora
             Get access token: {}/auth
             Version: {}'''.format(api_prefix, __version__), end=''
     )

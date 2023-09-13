@@ -17,7 +17,7 @@ def main():
     Console.debug_b(
         '''
             Pandora-Cloud - A web interface to ChatGPT
-            Github: https://github.com/pengzhile/pandora
+            Github: https://github.com/zhile-io/pandora
             Version: {}, Mode: cloud, Engine: free
           '''.format(__version__)
     )

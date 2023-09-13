@@ -5,14 +5,14 @@
   <p align="center">
     一个不只是命令行的 "ChatGPT"
     <br />
-    <a href="https://github.com/pengzhile/pandora/blob/master/doc/wiki_en.md"><strong>Wiki in English »</strong></a>
+    <a href="https://github.com/zhile-io/pandora/blob/master/doc/wiki_en.md"><strong>Wiki in English »</strong></a>
     <br />
     <br />
     <a href="https://chat.zhile.io">查看Demo</a>
     ·
-    <a href="https://github.com/pengzhile/pandora/issues">报告Bug</a>
+    <a href="https://github.com/zhile-io/pandora/issues">报告Bug</a>
     ·
-    <a href="https://github.com/pengzhile/pandora/issues">提出新特性</a>
+    <a href="https://github.com/zhile-io/pandora/issues">提出新特性</a>
   </p>
 </p>
 
@@ -94,7 +94,7 @@
   docker run -it --rm pandora
   ```
   
-* Serverless部署见项目：[pandora-cloud-serverless](https://github.com/pengzhile/pandora-cloud-serverless)
+* Serverless部署见项目：[pandora-cloud-serverless](https://github.com/zhile-io/pandora-cloud-serverless)
 
 * 输入用户名密码登录即可，登录密码理论上不显示出来，莫慌。
 * 简单而粗暴，不失优雅。
@@ -135,7 +135,7 @@
 
 * 如果你以`http`服务方式启动，现在你可以打开一个极简版的`ChatGPT`了。通过你指定的`http://ip:port`来访问。
 * 通过`http://ip:port/?token=xxx`，传递一个Token的名字，可以切换到对应的`Access Token`。
-* API文档见：[doc/HTTP-API.md](https://github.com/pengzhile/pandora/blob/master/doc/HTTP-API.md)
+* API文档见：[doc/HTTP-API.md](https://github.com/zhile-io/pandora/blob/master/doc/HTTP-API.md)
 
 ## 操作命令
 
