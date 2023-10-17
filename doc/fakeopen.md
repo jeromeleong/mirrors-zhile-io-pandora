@@ -214,6 +214,7 @@
 * 可以在共享账号时隐藏 `Access Token` ，官方 `Access Token` 在有效期内无法吊销，泄露损失很大。
 * 可以灵活控制 `Share Token` 的有效期，过期后会自动失效。也可随时手动吊销。
 * 可以限制 `Share Token` 使用的站点，防止被滥用。
+* 可以在部署的 `Pandora Cloud` 上使用 `<部署地址>/auth/login_share?token=<Share Token>` 快速使用。
 * 可以在 https://ai.fakeopen.com/token 操作界面中进行同等操作。
 * 既可以使用在 `ChatGPT` 上，也可以使用在模拟 `OpenAI API` 的调用上。
 * **返回类型：** `application/json`
