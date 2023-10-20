@@ -8,7 +8,7 @@
     <a href="https://github.com/zhile-io/pandora/blob/master/doc/wiki_en.md"><strong>Wiki in English »</strong></a>
     <br />
     <br />
-    <a href="https://chat.zhile.io">查看Demo</a>
+    <a href="https://chat1.zhile.io">查看Demo</a>
     ·
     <a href="https://github.com/zhile-io/pandora/issues">报告Bug</a>
     ·

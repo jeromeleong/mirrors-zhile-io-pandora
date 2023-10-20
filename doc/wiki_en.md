@@ -8,7 +8,7 @@ Pandora, talking with ChatGPT in command lines, and with more surprises.
     <a href="https://github.com/zhile-io/pandora/blob/master/doc/wiki.md"><strong>Wiki in 中文 »</strong></a>
     <br />
     <br />
-    <a href="https://chat.zhile.io">Demo View</a>
+    <a href="https://chat1.zhile.io">Demo View</a>
     ·
     <a href="https://github.com/zhile-io/pandora/issues">Bug Report</a>
     ·

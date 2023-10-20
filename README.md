@@ -16,7 +16,7 @@
 [![Discord](https://img.shields.io/discord/1098772912242163795?label=Discord)](https://discord.gg/QBkd9JAaWa)
 
 ## 体验地址
-* 点击 <a href="https://chat.zhile.io" target="_blank" title="Pandora Cloud体验地址">https://chat.zhile.io</a>
+* 点击 <a href="https://chat1.zhile.io" target="_blank" title="Pandora Cloud体验地址">https://chat1.zhile.io</a>
 * 最新拿 `Access Token` 的技术原理，我记录在[这里](https://zhile.io/2023/05/19/how-to-get-chatgpt-access-token-via-pkce.html)了。
 * 可以访问 [这里](http://ai-20230626.fakeopen.com/auth) 拿 `Access Token`
 * 也可以官方登录，然后访问 [这里](http://chat.openai.com/api/auth/session) 拿 `Access Token`
