@@ -24,7 +24,7 @@
     - [3. /auth/refresh](#3-authrefresh)
     - [4. /auth/platform/login](#4-authplatformlogin)
     - [5. /auth/platform/refresh](#5-authplatformrefresh)
-    - [5. /auth/session](#6-authsession)
+    - [6. /auth/session](#6-authsession)
 - [Share Token 相关](#share-token-%E7%9B%B8%E5%85%B3)
   - [基础信息](#%E5%9F%BA%E7%A1%80%E4%BF%A1%E6%81%AF-3)
   - [接口列表](#%E6%8E%A5%E5%8F%A3%E5%88%97%E8%A1%A8-3)
