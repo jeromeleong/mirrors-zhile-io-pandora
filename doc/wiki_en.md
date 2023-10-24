@@ -127,7 +127,7 @@ These docker environment variables will override start parameters.
 
 * no need for proxy if login with `Access Token`.
 * you could obtain your access token safely with [this service](https://ai.fakeopen.com/auth).
-* `Access Token` has a expiration time as `14 days`, you could save it and keep using within this period.
+* `Access Token` has an expiration time as `14 days`, you could save it and keep using within this period.
 * leaking your `Access Token` will lead to loss of your account.
 
 ## HTTP RESTFUL API
