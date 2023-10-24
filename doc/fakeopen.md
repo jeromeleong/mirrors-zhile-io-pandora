@@ -107,7 +107,7 @@
 ### 基础信息
 * 请求接口需要提供 `Authorization` 或 `X-Authorization` 头，值为 `Bearer <Token>` 。
 * `Token` 可以是 `Access Token` 或 `sk-` 开头的官方 `API Key` ，**会扣官方额度**。
-* `Token` 可以时 `Share Token` 或 `Pool Token` ，此时为模拟接口，**不会扣官方额度**。
+* `Token` 可以是 `Share Token` 或 `Pool Token` ，此时为模拟接口，**不会扣官方额度**。
 * **官方文档：** https://platform.openai.com/docs/api-reference
 
 ### 接口列表
