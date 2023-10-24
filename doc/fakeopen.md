@@ -213,7 +213,7 @@
 * **请求字段：** 
     * `session_token`：`ChatGPT` 的 `Session Token`。
 * **返回字段：** 返回 `Access Token` 等信息。
-* **频率控制：** 无。。
+* **频率控制：** 无。
 * **特别说明：** `Session Token` 有效期为 `3` 个月。
 
 ## Share Token 相关
