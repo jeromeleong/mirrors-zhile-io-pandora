@@ -24,6 +24,7 @@
     - [3. /auth/refresh](#3-authrefresh)
     - [4. /auth/platform/login](#4-authplatformlogin)
     - [5. /auth/platform/refresh](#5-authplatformrefresh)
+    - [5. /auth/session](#6-authsession)
 - [Share Token 相关](#share-token-%E7%9B%B8%E5%85%B3)
   - [基础信息](#%E5%9F%BA%E7%A1%80%E4%BF%A1%E6%81%AF-3)
   - [接口列表](#%E6%8E%A5%E5%8F%A3%E5%88%97%E8%A1%A8-3)
@@ -172,7 +173,7 @@
     * `username`：`ChatGPT` 账号。
     * `password`：`ChatGPT` 密码。
     * `mfa_code`：开启二次验证，需要提供。否则不需要。
-* **返回字段：** 返回 `Access Token` 和 `Refresh Token` 等信息。
+* **返回字段：** 返回 `Access Token` 和 `Session Token` 等信息。
 * **频率控制：** 根据IP地址 `6/1m` 限制，被限制时返回 `429` 错误码。
 * **特别说明：** 可直接调用，无需先调用**获取登录预授权**接口。也无需支持国家的梯子。
 
@@ -204,6 +205,16 @@
     * `refresh_token`：`Platform` 的 `Refresh Token`。
 * **返回字段：** 返回 `Access Token` 等信息。
 * **频率控制：** 无。
+
+#### 6. `/auth/session`
+* **接口描述：** 使用 `Session Token` 获取供 [ChatGPT](https://chat.openai.com) 使用的 `Access Token` 等信息。
+* **HTTP方法：** `POST`
+* **请求类型：** `application/x-www-form-urlencoded`
+* **请求字段：** 
+    * `session_token`：`ChatGPT` 的 `Session Token`。
+* **返回字段：** 返回 `Access Token` 等信息。
+* **频率控制：** 无。。
+* **特别说明：** `Session Token` 有效期为 `3` 个月。
 
 ## Share Token 相关
 
